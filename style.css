@@ -29,7 +29,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   list-style: none;
-  padding: 30px 12px;
+  padding: 30px 20px;
   color: #1df91d;
 }
 
@@ -49,15 +49,32 @@
   font-size: 7em;
 }
 
+.content p {
+  width: 55%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color: #1df91d;
+  display: inline-block;
+}
+
+.btn {
+  background-color: #1df91d;
+  color: black;
+  padding: 8px;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+}
 /* links */
 
 a {
   color: inherit;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 a:hover {
   color: black;
+  border: 3px solid black;
+  padding: 8px;
 }
 
 a:link {
