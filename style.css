@@ -58,11 +58,19 @@
 }
 
 .btn {
+  margin: 25px;
   background-color: #1df91d;
   color: black;
   padding: 8px;
   display: inline-block;
-  font-family: "Raleway", sans-serif;
+  font-family: "Fugaz One", cursive;
+  font-size: large;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  color: #1df91d;
+  background-color: black;
 }
 /* links */
 
@@ -91,4 +99,11 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+/* pre-order page */
+
+.background {
+  width: 100%;
+  background-color: black;
 }

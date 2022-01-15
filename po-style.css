@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Raleway:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/* pre-order page */
+
+.background {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  list-style: none;
+  padding: 30px 20px;
+  color: #1df91d;
+}
+
+/* album details */
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.details {
+  padding: 25px 15px;
+  border-bottom: 3px solid #1df91d;
+}
+
+.details h2 {
+  color: #1df91d;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* links */
+
+a {
+  color: inherit;
+  transition: 0.1s;
+}
+
+a:hover {
+  border: 3px solid #1df91d;
+  padding: 8px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
