@@ -3,7 +3,10 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: black;
+}
+
+body {
+  background-color: #24252a;
 }
 
 /* pre-order page */
@@ -16,15 +19,17 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #1df91d;
 }
 
 .navbar li {
   display: inline-block;
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   list-style: none;
   padding: 30px 20px;
-  color: #1df91d;
+  color: black;
 }
 
 /* album details */
@@ -48,6 +53,40 @@ section {
   text-align: center;
 }
 
+/* imgs */
+
+.album {
+  display: flex;
+  justify-content: center;
+}
+
+.ver1 img {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  height: 300px;
+}
+
+.ver2 img {
+  display: inline-block;
+  float: right;
+  height: 300px;
+}
+
+/* descr */
+
+.descr {
+  margin-top: 30px;
+}
+
+.descr h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  color: #1df91d;
+}
+
 /* links */
 
 a {
@@ -56,8 +95,10 @@ a {
 }
 
 a:hover {
-  border: 3px solid #1df91d;
+  border: 3px solid black;
   padding: 8px;
+  border-radius: 10px;
+  font-weight: 600;
 }
 
 a:link {

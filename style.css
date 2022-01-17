@@ -57,21 +57,6 @@
   display: inline-block;
 }
 
-.btn {
-  margin: 25px;
-  background-color: #1df91d;
-  color: black;
-  padding: 8px;
-  display: inline-block;
-  font-family: "Fugaz One", cursive;
-  font-size: large;
-  transition: 0.2s;
-}
-
-.btn:hover {
-  color: #1df91d;
-  background-color: black;
-}
 /* links */
 
 a {
@@ -82,7 +67,9 @@ a {
 a:hover {
   color: black;
   border: 3px solid black;
+  border-radius: 10px;
   padding: 8px;
+  font-weight: 600;
 }
 
 a:link {
@@ -99,11 +86,4 @@ a:hover {
 
 a:active {
   text-decoration: none;
-}
-
-/* pre-order page */
-
-.background {
-  width: 100%;
-  background-color: black;
 }
